@@ -311,11 +311,12 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-        ['header' => 'Configuraciones'],
-       
-      
+        ['header' => 'Recursos Humanos'],
+
+
+//-----------------------RecursosHumanos-----------------
         [
-            'text'    => 'USUARIO',
+            'text'    => 'Recursos Humanos',
             'icon'    => 'fas fa-fw fa-users',
             'submenu' => [
                 
@@ -331,55 +332,87 @@ return [
                     'icon' => 'fas fa-fw fa-user',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                    'text' => 'Clientes',
+                    'url'  => 'cliente',
+                    'icon' => 'fas fa-fw fa-user',
                 ],
+                //---------------AREAS---------------
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
+                    'text' => 'Areas',
+                    'url'  => 'areas',
+                    'icon' => 'fas fa-fw fa-user',
                 ],
+                //-------------------------
                 
+                //---------------RUBROS----------
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                    'text' => 'Rubros',
+                    'url'  => 'rubro',
+                    'icon' => 'fas fa-fw fa-user',
                 ],
+                //----------------------------        
+                //---------------TareasAsignadas----------
+                [
+                    'text' => 'TareasAsignadas',
+                    'url'  => 'tarea',
+                    'icon' => 'fas fa-fw fa-user',
+                ],
+                //----------------------------        
             ],
         ],
-        ['header' => 'labels'],
+//-----------------------------------------------------------
+
+//-------------------Asistencia--------------------
+[
+    'text'    => 'ASISTENCIA',
+    'icon'    => 'fas fa-fw fa-users',
+    'submenu' => [
+        
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
+            'text' => 'Asistencias',
+            'url'  => 'asistencia',
+            'icon' => 'fas fa-fw fa-users',
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
+            'text' => 'Reportes',
+            'url'  => 'reportAsistencia',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+    ],
+],
+//---------------------------------------------------
+
+//------------------PAGOS----------------------------
+[
+    'text'    => 'NOMINA',
+    'icon'    => 'fas fa-fw fa-users',
+    'submenu' => [
+        
+        [
+            'text' => 'Pagos',
+            'url'  => 'pago',
+            'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+            'text' => 'ReportesPagos',
+            'url'  => 'reportePago',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+    ],
+],
+//--------------------------------------------------------
+
+
+        ['header' => 'Configuraciones'],
+        [
+            'text'       => 'CambiarContraseña',
+            'url'        => 'config',
+            'icon'       => 'fas fa-fw fa-user',
+        ],
+        [
+            'text'       => 'Editar Perfil',
+            'url'        => 'Editperfil',
+            'icon'       => 'fas fa-fw fa-user',
         ],
     ],
 

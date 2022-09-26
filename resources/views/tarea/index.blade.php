@@ -7,8 +7,7 @@
 @stop
 
 @section('content')
-    <h1>PAGINA DE ADMINISTRADORES</h1>
-    
+<h1>PAGINA DE TAREAS ASIGNADAS</h1>
 @stop
 
 @section('css')

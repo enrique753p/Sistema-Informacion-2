@@ -3,12 +3,11 @@
 @section('title', 'Users')
 
 @section('content_header')
-    
+
 @stop
 
 @section('content')
-    <h1>PAGINA DE ADMINISTRADORES</h1>
-    
+    <h1>PAGINA DE AREAS</h1>
 @stop
 
 @section('css')
