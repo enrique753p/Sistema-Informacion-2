@@ -6,6 +6,7 @@ use App\Http\Controllers\EmpleadoController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\AreasController;
 use App\Http\Controllers\AsistenciaController;
+use App\Http\Controllers\CargosController;
 use App\Http\Controllers\RubroController;
 use App\Http\Controllers\TareaController;
 use App\Http\Controllers\ReportAsistenciaController;
@@ -49,5 +50,6 @@ Route::get('asistencia',[AsistenciaController::class,'index'])->name('asistencia
 Route::get('reportAsistencia',[ReportAsistenciaController::class,'index'])->name('reportAsistencia.index');//Reporte de Asistencias
 Route::get('pago',[PagoController::class,'index'])->name('pago.index');//PAGOS
 Route::get('reportePago',[ReportePagoController::class,'index'])->name('reportePago.index');//Reporte de PAGOS
-
+Route::get('cargos',[CargosController::class,'index'])->name('cargo.index');//cargo de empleados
 //-----
+

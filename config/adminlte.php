@@ -321,7 +321,7 @@ return [
             'submenu' => [
                 
                 [
-                    'text' => 'Administradores',
+                    'text' => 'Usuarios',
                     'url'  => 'users',
                     'icon' => 'fas fa-fw fa-user',
                 ],
@@ -343,6 +343,15 @@ return [
                     'icon' => 'fas fa-fw fa-user',
                 ],
                 //-------------------------
+                
+                //-------------CARGOS-------------
+                
+                [
+                    'text' => 'Cargos',
+                    'url'  => 'cargos',
+                    'icon' => 'fas fa-fw fa-user',
+                ],
+                //-------------------------------
                 
                 //---------------RUBROS----------
                 [
